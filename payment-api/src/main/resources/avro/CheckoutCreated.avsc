@@ -6,13 +6,15 @@
     {
       "name": "checkoutCode",
       "type": [
-        "string"
+        "string",
+        "null"
       ]
     },
     {
       "name": "status",
       "type": [
-        "string"
+        "string",
+        "null"
       ]
     }
   ]
