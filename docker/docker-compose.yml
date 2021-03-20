@@ -2,8 +2,7 @@ version: '3.7'
 
 services:
   jenkins:
-    build:
-      context: jenkins
+    image: jenkins/jenkins
     ports:
       - 8080:8080
       - 50000:50000
